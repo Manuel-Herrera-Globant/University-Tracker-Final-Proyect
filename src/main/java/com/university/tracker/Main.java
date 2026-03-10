@@ -10,10 +10,6 @@ public class Main {
     private static List<UniversityClass> classes = new ArrayList<>();
     private static Scanner sc = new Scanner(System.in);
 
-    private static List<Teacher> teachers = new ArrayList<>();
-    private static List<Student> students = new ArrayList<>();
-    private static List<UniversityClass> classes = new ArrayList<>();
-
     public static void main(String[] args) {
         initializeData();
         showMenu();
